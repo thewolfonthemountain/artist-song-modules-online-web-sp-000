@@ -6,7 +6,7 @@ class Artist
 
   extend Memorable, Findable
   include Paramable
-  
+
   @@artists = []
 
   def initialize
